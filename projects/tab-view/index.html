@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/output.css" />
+        <title>Tab View</title>
+    </head>
+    <body class="flex h-screen w-full justify-center bg-slate-200 dark:bg-slate-800">
+        <div class="lg-w-3/4 flex h-fit w-full flex-col items-end p-3">
+            <div id="buttons" class="mb-1 flex h-12 w-full flex-row lg:w-1/2">
+                <span data-id="tab-1" class="button mr-1 flex h-full w-1/3 cursor-pointer items-center justify-center rounded-md border border-slate-800 text-slate-800 transition-all duration-150 hover:bg-slate-800 hover:text-slate-200 data-[active=true]:bg-slate-800 data-[active=true]:text-slate-200 dark:border-slate-200 dark:text-slate-200 dark:hover:bg-slate-200 dark:hover:text-slate-800 dark:data-[active=true]:bg-slate-200 dark:data-[active=true]:text-slate-800" data-active="true">Tab 1</span>
+                <span data-id="tab-2" class="button mr-1 flex h-full w-1/3 cursor-pointer items-center justify-center rounded-md border border-slate-800 text-slate-800 transition-all duration-150 hover:bg-slate-800 hover:text-slate-200 data-[active=true]:bg-slate-800 data-[active=true]:text-slate-200 dark:border-slate-200 dark:text-slate-200 dark:hover:bg-slate-200 dark:hover:text-slate-800 dark:data-[active=true]:bg-slate-200 dark:data-[active=true]:text-slate-800" data-active="false">Tab 2</span>
+                <span data-id="tab-3" class="button flex h-full w-1/3 cursor-pointer items-center justify-center rounded-md border border-slate-800 text-slate-800 transition-all duration-150 hover:bg-slate-800 hover:text-slate-200 data-[active=true]:bg-slate-800 data-[active=true]:text-slate-200 dark:border-slate-200 dark:text-slate-200 dark:hover:bg-slate-200 dark:hover:text-slate-800 dark:data-[active=true]:bg-slate-200 dark:data-[active=true]:text-slate-800" data-active="false">Tab 3</span>
+            </div>
+
+            <div class="h-full w-full rounded-md border border-slate-800 dark:border-slate-200">
+                <div id="tab-1" class="tab-content flex h-full w-full flex-col-reverse justify-start p-3 xl:flex-row">
+                    <img src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?q=80&w=5070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tab-1" class="w-full rounded-lg xl:w-1/2" />
+                    <p class="mb-3 h-full w-fit px-1 leading-6 xl:mb-0 xl:pl-5 dark:text-slate-200">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt illum consequuntur voluptatum, necessitatibus animi veniam deleniti quod a. Nam, quis. Voluptates, praesentium pariatur. Amet officia, blanditiis ea excepturi atque voluptatibus quas dolorum numquam natus ipsa, est maiores quo saepe, sapiente laudantium iure doloremque? Temporibus eius, assumenda non exercitationem similique dolores quas dignissimos possimus alias doloribus blanditiis earum minima cupiditate sequi magni ipsam dolor inventore, repellat excepturi aperiam qui? Mollitia aspernatur animi, ea,
+                        adipisci labore dolores provident maxime dignissimos beatae pariatur distinctio earum nemo, omnis ipsam. Sit dicta sequi iure repudiandae et ipsum, consectetur dolor illum voluptatum quos voluptate repellendus atque!
+                    </p>
+                </div>
+                <div id="tab-2" class="tab-content hidden h-full w-full flex-col-reverse justify-start p-3 xl:flex-row">
+                    <img src="https://images.unsplash.com/photo-1460186136353-977e9d6085a1?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tab-2" class="w-full rounded-lg xl:w-1/2" />
+                    <p class="mb-3 h-full w-fit px-1 leading-6 xl:mb-0 xl:pl-5 dark:text-slate-200">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum molestiae corrupti quae totam eaque nemo culpa beatae voluptates minus aliquam error molestias soluta autem quod perferendis cum nisi esse blanditiis, exercitationem facilis! Minima unde odit veniam voluptate ab maiores sunt. Molestiae, cumque officia hic delectus quasi rerum debitis sapiente assumenda cum pariatur excepturi fugit deleniti rem. Mollitia temporibus debitis ad sed quibusdam quia sunt officia. Nesciunt soluta quis dolorum accusantium laboriosam ab ratione a modi quidem voluptatibus dicta impedit
+                        sequi repellendus inventore, ea explicabo ipsum ut omnis reiciendis sed odit distinctio! Illum, blanditiis? Obcaecati non ipsam, officia modi omnis sit, mollitia iusto, earum odit blanditiis consequatur cupiditate perferendis. Architecto ut obcaecati placeat itaque autem veritatis molestiae quibusdam deleniti unde quo excepturi quod omnis repellendus id asperiores, quis consectetur nesciunt necessitatibus! Quam aut cupiditate exercitationem nostrum porro quibusdam, consequatur totam, est temporibus accusantium facilis odit nihil accusamus facere ullam ipsum asperiores
+                        labore illum numquam suscipit atque qui optio. Quod omnis aliquid perferendis iure non eligendi rerum perspiciatis, ipsam vitae quae soluta neque aperiam voluptatibus voluptatum eos veritatis assumenda beatae ipsum? Earum iure voluptates unde a, iste id pariatur quas quibusdam repellendus omnis ipsam deserunt eveniet esse ab laboriosam, autem ad reprehenderit.
+                    </p>
+                </div>
+                <div id="tab-3" class="tab-content hidden h-full w-full flex-col-reverse justify-start p-3 xl:flex-row">
+                    <img src="https://images.unsplash.com/photo-1504192010706-dd7f569ee2be?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tab-3" class="w-full rounded-lg xl:w-1/2" />
+                    <p class="mb-3 h-full w-fit px-1 leading-6 xl:mb-0 xl:pl-5 dark:text-slate-200">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate quasi libero necessitatibus consectetur consequuntur tempora quisquam voluptatum dolor eaque quas accusamus tempore modi enim dolorum aperiam architecto aliquam recusandae laborum, iure assumenda vel! Quas magnam autem possimus voluptas provident minus consequatur sed nemo delectus ratione quasi adipisci quidem, ducimus animi, quisquam modi sequi labore earum nihil recusandae aperiam nostrum incidunt id ullam. Blanditiis, eligendi quam! Eum libero aliquam error asperiores voluptatem dolores, provident
+                        fugiat incidunt ipsam velit nihil nostrum, animi odit rem iste, dolorum ipsum dicta nisi maiores dolore voluptatibus doloremque repellat a. Cum animi at pariatur hic expedita, laboriosam officiis nihil asperiores dolore. Sit, saepe sapiente cupiditate, consectetur recusandae optio, modi debitis tempore vel fuga porro inventore! Officiis alias ipsa eaque hic, nesciunt saepe, ab nisi, pariatur incidunt non in dolore laborum eius totam minus. Quod nesciunt eius nobis quo ullam libero aspernatur fugiat minima reprehenderit, tenetur at? Beatae!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
