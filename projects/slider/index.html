@@ -1,0 +1,24 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/output.css" />
+        <title>Slider</title>
+    </head>
+    <body class="relative flex min-h-screen w-full items-center justify-center bg-slate-200 p-2 font-mono dark:bg-slate-800">
+        <div class="relative flex w-[70rem] items-center overflow-hidden rounded-md border-2 border-slate-800 dark:border-slate-200">
+            <span id="next" class="absolute right-4 z-30 flex h-fit w-fit cursor-pointer items-center justify-center rounded-md bg-slate-400 bg-opacity-10 p-3 text-4xl text-slate-200 transition-opacity duration-200 hover:opacity-70 md:text-6xl">></span>
+            <span id="back" class="absolute left-4 z-30 flex h-fit w-fit cursor-pointer items-center justify-center rounded-md bg-slate-400 bg-opacity-10 p-3 text-4xl text-slate-200 transition-opacity duration-200 hover:opacity-70 md:text-6xl"><</span>
+
+            <div id="slider" class="flex h-full w-full flex-row transition-transform duration-700">
+                <img src="https://images.unsplash.com/photo-1517866184231-7ef94c2ea930?q=80&w=3000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide-5" class="img" />
+                <img src="https://images.unsplash.com/photo-1451186859696-371d9477be93?q=80&w=4312&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide-3" class="img" />
+                <img src="https://images.unsplash.com/photo-1529788295308-1eace6f67388?q=80&w=2761&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide-2" class="img" />
+                <img src="https://images.unsplash.com/photo-1601892782633-675465fa7f3a?q=80&w=4928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide-1" class="img" />
+                <img src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?q=80&w=3880&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="slide-4" class="img" />
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
