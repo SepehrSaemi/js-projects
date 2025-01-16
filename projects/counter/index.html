@@ -1,0 +1,23 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/output.css" />
+        <title>Counter</title>
+    </head>
+    <body class="bg-salte-200 flex min-h-screen w-full flex-col items-center justify-center dark:bg-slate-800">
+        <h1 class="mb-10 text-7xl text-slate-800 dark:text-slate-200">Counter</h1>
+
+        <div class="border-salte-800 flex h-auto w-full flex-col items-center rounded-md border-2 border-slate-800 p-7 md:w-[30rem] dark:border-slate-200">
+            <p id="counter" class="m-2 text-6xl text-slate-800 dark:text-slate-200">0</p>
+
+            <div id="buttons" class="mb-2">
+                <button class="mt-10 cursor-pointer rounded-md border border-red-800 p-3 text-red-800 transition-colors duration-150 hover:bg-red-800 hover:text-slate-200 dark:border-red-200 dark:text-red-200 hover:dark:bg-red-200 hover:dark:text-slate-800">Decrease</button>
+                <button class="mt-10 cursor-pointer rounded-md border border-slate-800 p-3 text-slate-800 transition-colors duration-150 hover:bg-slate-800 hover:text-slate-200 dark:border-slate-200 dark:text-slate-200 hover:dark:bg-slate-200 hover:dark:text-slate-800">Reset</button>
+                <button class="mt-10 cursor-pointer rounded-md border border-green-800 p-3 text-green-800 transition-colors duration-150 hover:bg-green-800 hover:text-slate-200 dark:border-green-200 dark:text-green-200 hover:dark:bg-green-200 hover:dark:text-slate-800">Increase</button>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
