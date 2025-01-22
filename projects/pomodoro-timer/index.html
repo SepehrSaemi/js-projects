@@ -1,0 +1,20 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/output.css" />
+        <title>Pomodoro Timer</title>
+    </head>
+    <body class="flex h-screen w-full items-center justify-center bg-slate-200 dark:bg-slate-800">
+        <div class="m-2 flex h-auto w-[30rem] flex-col items-center rounded-md border border-slate-800 p-10 md:m-0 dark:border-slate-200">
+            <div id="timer" class="text-7xl text-slate-800 md:text-8xl dark:text-slate-200">25:00</div>
+            <div id="buttons" class="mt-4 flex flex-row p-3">
+                <button data-id="start" class="text-md cursor-pointer rounded-md border border-green-800 p-2 text-green-800 transition-colors duration-200 hover:bg-green-600 hover:text-slate-200 md:text-2xl xl:p-3 xl:text-xl dark:border-green-200 dark:text-green-200 hover:dark:bg-green-200 hover:dark:text-slate-800">Start</button>
+                <button data-id="reset" class="text-md ml-3 cursor-pointer rounded-md border border-slate-800 p-2 text-slate-800 transition-colors duration-200 hover:bg-slate-800 hover:text-slate-200 md:text-2xl xl:p-3 xl:text-xl dark:border-slate-200 dark:text-slate-200 hover:dark:bg-slate-200 hover:dark:text-slate-800">Reset</button>
+                <button data-id="stop" class="text-md ml-3 cursor-pointer rounded-md border border-red-800 p-2 text-red-800 transition-colors duration-200 hover:bg-red-600 hover:text-slate-200 md:text-2xl xl:p-3 xl:text-xl dark:border-red-200 dark:text-red-200 hover:dark:bg-red-200 hover:dark:text-slate-800">Stop</button>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
