@@ -1,0 +1,26 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../../src/output.css" />
+        <title>Grocery List</title>
+    </head>
+    <body class="flex min-h-screen w-full flex-col items-center justify-center bg-slate-200 text-slate-800 dark:bg-slate-800 dark:text-slate-200">
+        <div class="h-auto w-full rounded-md border border-slate-800 md:w-[30rem] dark:border-slate-200">
+            <div class="rounded-t-md bg-slate-800 p-4 text-slate-200 dark:bg-slate-200 dark:text-slate-800">
+                <h1 class="text-center text-2xl font-bold">Grocery List</h1>
+            </div>
+            <div class="p-4">
+                <form class="flex flex-col gap-4">
+                    <input type="text" id="grocery-input" class="rounded-md border border-slate-800 p-2 text-slate-800 outline-none dark:border-slate-200" placeholder="Add Grocery Item" />
+                    <button type="submit" id="grocery-submit" class="rounded-md bg-slate-800 p-2 text-slate-200 hover:bg-slate-700 dark:bg-slate-200 dark:text-slate-800 dark:hover:bg-slate-300">Add Item</button>
+                </form>
+                <ul id="grocery-list" class="mt-4">
+                    <!-- Grocery Items -->
+                </ul>
+            </div>
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
