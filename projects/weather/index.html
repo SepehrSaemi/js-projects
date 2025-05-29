@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/src/output.css" />
+        <title>Weather</title>
+    </head>
+    <body class="flex h-screen w-full flex-col items-center justify-center">
+        <div id="result" class="flex h-48 w-96 flex-col items-center justify-center rounded-md border border-slate-500 text-2xl"></div>
+
+        <div class="mt-8 flex h-auto w-96 flex-col">
+            <label for="city" class="self-baseline">Enter City Name</label>
+            <input id="city-input" type="text" class="w-96 rounded-md border border-slate-700 p-2" />
+            <button id="submit" class="mt-0.5 h-8 w-full rounded-md border border-slate-700 duration-200 hover:bg-slate-700 hover:text-white">Search</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
